@@ -1,0 +1,98 @@
+*{
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+}
+table{
+    width: 80%;
+    max-width: 1800px;
+    min-width: 900px;
+    margin: 15px auto;
+    background-color: whitesmoke;
+    text-align: center;
+    border-collapse: collapse;
+    border: solid 2px dimgray;
+    table-layout: fixed;
+}
+
+table th, 
+table td{
+    border: solid 1px lightgrey ;
+    padding: 5px;
+}
+
+p{
+    margin: 5px;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.time{
+    font-size: small;
+    color:white;
+    height: 2em;
+    width: 0px;
+    padding: 0;
+}
+
+.date{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 10px;
+}
+
+.interval{
+    width: 100px;
+    min-width: 100px;
+}
+
+.blank{
+    background-color: lightgrey;
+}
+
+.name{
+    font-size: larger;
+}
+
+.teacher{
+    font-size: medium;
+    color:dimgray;
+}
+
+.required{
+    font-weight: bolder;
+}
+
+.optional{
+    font-style: italic;
+}
+
+.break{
+    background-color: lightgrey ;
+    color: white;
+    font-size: larger;
+}
+
+.FE{
+    background-color: #fad390;
+    min-width: 144px;
+}
+
+.computer{
+    background-color: #b8e994;
+    min-width: 144px;
+}
+
+.linux{
+    background-color: #82ccdd;
+    min-width: 144px;
+}
+
+.java{
+    background-color: #f8c291;
+    min-width: 144px;
+}
